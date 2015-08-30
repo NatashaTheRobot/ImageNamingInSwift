@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA910C8F1B92BE3F00F1DB50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA910C8E1B92BE3F00F1DB50 /* AppDelegate.swift */; };
+		FA910C941B92BE3F00F1DB50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA910C921B92BE3F00F1DB50 /* Main.storyboard */; };
+		FA910C961B92BE3F00F1DB50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA910C951B92BE3F00F1DB50 /* Assets.xcassets */; };
+		FA910C991B92BE3F00F1DB50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA910C971B92BE3F00F1DB50 /* LaunchScreen.storyboard */; };
+		FA910CA41B92BE3F00F1DB50 /* BetterImageNamingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA910CA31B92BE3F00F1DB50 /* BetterImageNamingTests.swift */; };
+		FA910CAF1B92BE3F00F1DB50 /* BetterImageNamingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA910CAE1B92BE3F00F1DB50 /* BetterImageNamingUITests.swift */; };
+		FA910CBD1B92BF0300F1DB50 /* ImageWithTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA910CBC1B92BF0300F1DB50 /* ImageWithTextTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		FA910CBF1B92C04400F1DB50 /* MinionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA910CBE1B92C04400F1DB50 /* MinionsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FA910CC31B92C08D00F1DB50 /* MinionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA910CC21B92C08D00F1DB50 /* MinionDataSource.swift */; settings = {ASSET_TAGS = (); }; };
+		FA910CC51B92C0A000F1DB50 /* Minion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA910CC41B92C0A000F1DB50 /* Minion.swift */; settings = {ASSET_TAGS = (); }; };
+		FA910CC71B92C38B00F1DB50 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA910CC61B92C38B00F1DB50 /* String+Extension.swift */; settings = {ASSET_TAGS = (); }; };
+		FA910CC91B92C51700F1DB50 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA910CC81B92C51700F1DB50 /* UIImage+Extension.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA910CA01B92BE3F00F1DB50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA910C831B92BE3F00F1DB50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA910C8A1B92BE3F00F1DB50;
+			remoteInfo = BetterImageNaming;
+		};
+		FA910CAB1B92BE3F00F1DB50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA910C831B92BE3F00F1DB50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA910C8A1B92BE3F00F1DB50;
+			remoteInfo = BetterImageNaming;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA910C8B1B92BE3F00F1DB50 /* BetterImageNaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterImageNaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA910C8E1B92BE3F00F1DB50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA910C931B92BE3F00F1DB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA910C951B92BE3F00F1DB50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA910C981B92BE3F00F1DB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA910C9A1B92BE3F00F1DB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA910C9F1B92BE3F00F1DB50 /* BetterImageNamingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterImageNamingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA910CA31B92BE3F00F1DB50 /* BetterImageNamingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterImageNamingTests.swift; sourceTree = "<group>"; };
+		FA910CA51B92BE3F00F1DB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA910CAA1B92BE3F00F1DB50 /* BetterImageNamingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterImageNamingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA910CAE1B92BE3F00F1DB50 /* BetterImageNamingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterImageNamingUITests.swift; sourceTree = "<group>"; };
+		FA910CB01B92BE3F00F1DB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA910CBC1B92BF0300F1DB50 /* ImageWithTextTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageWithTextTableViewCell.swift; sourceTree = "<group>"; };
+		FA910CBE1B92C04400F1DB50 /* MinionsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionsTableViewController.swift; sourceTree = "<group>"; };
+		FA910CC21B92C08D00F1DB50 /* MinionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionDataSource.swift; sourceTree = "<group>"; };
+		FA910CC41B92C0A000F1DB50 /* Minion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Minion.swift; sourceTree = "<group>"; };
+		FA910CC61B92C38B00F1DB50 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		FA910CC81B92C51700F1DB50 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA910C881B92BE3F00F1DB50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA910C9C1B92BE3F00F1DB50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA910CA71B92BE3F00F1DB50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA910C821B92BE3F00F1DB50 = {
+			isa = PBXGroup;
+			children = (
+				FA910C8D1B92BE3F00F1DB50 /* BetterImageNaming */,
+				FA910CA21B92BE3F00F1DB50 /* BetterImageNamingTests */,
+				FA910CAD1B92BE3F00F1DB50 /* BetterImageNamingUITests */,
+				FA910C8C1B92BE3F00F1DB50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA910C8C1B92BE3F00F1DB50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA910C8B1B92BE3F00F1DB50 /* BetterImageNaming.app */,
+				FA910C9F1B92BE3F00F1DB50 /* BetterImageNamingTests.xctest */,
+				FA910CAA1B92BE3F00F1DB50 /* BetterImageNamingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA910C8D1B92BE3F00F1DB50 /* BetterImageNaming */ = {
+			isa = PBXGroup;
+			children = (
+				FA910C8E1B92BE3F00F1DB50 /* AppDelegate.swift */,
+				FA910C921B92BE3F00F1DB50 /* Main.storyboard */,
+				FA910CBE1B92C04400F1DB50 /* MinionsTableViewController.swift */,
+				FA910CBC1B92BF0300F1DB50 /* ImageWithTextTableViewCell.swift */,
+				FA910CC21B92C08D00F1DB50 /* MinionDataSource.swift */,
+				FA910CC41B92C0A000F1DB50 /* Minion.swift */,
+				FA910CC61B92C38B00F1DB50 /* String+Extension.swift */,
+				FA910CC81B92C51700F1DB50 /* UIImage+Extension.swift */,
+				FA910C951B92BE3F00F1DB50 /* Assets.xcassets */,
+				FA910C971B92BE3F00F1DB50 /* LaunchScreen.storyboard */,
+				FA910C9A1B92BE3F00F1DB50 /* Info.plist */,
+			);
+			path = BetterImageNaming;
+			sourceTree = "<group>";
+		};
+		FA910CA21B92BE3F00F1DB50 /* BetterImageNamingTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA910CA31B92BE3F00F1DB50 /* BetterImageNamingTests.swift */,
+				FA910CA51B92BE3F00F1DB50 /* Info.plist */,
+			);
+			path = BetterImageNamingTests;
+			sourceTree = "<group>";
+		};
+		FA910CAD1B92BE3F00F1DB50 /* BetterImageNamingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA910CAE1B92BE3F00F1DB50 /* BetterImageNamingUITests.swift */,
+				FA910CB01B92BE3F00F1DB50 /* Info.plist */,
+			);
+			path = BetterImageNamingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA910C8A1B92BE3F00F1DB50 /* BetterImageNaming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA910CB31B92BE3F00F1DB50 /* Build configuration list for PBXNativeTarget "BetterImageNaming" */;
+			buildPhases = (
+				FA910C871B92BE3F00F1DB50 /* Sources */,
+				FA910C881B92BE3F00F1DB50 /* Frameworks */,
+				FA910C891B92BE3F00F1DB50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterImageNaming;
+			productName = BetterImageNaming;
+			productReference = FA910C8B1B92BE3F00F1DB50 /* BetterImageNaming.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA910C9E1B92BE3F00F1DB50 /* BetterImageNamingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA910CB61B92BE3F00F1DB50 /* Build configuration list for PBXNativeTarget "BetterImageNamingTests" */;
+			buildPhases = (
+				FA910C9B1B92BE3F00F1DB50 /* Sources */,
+				FA910C9C1B92BE3F00F1DB50 /* Frameworks */,
+				FA910C9D1B92BE3F00F1DB50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA910CA11B92BE3F00F1DB50 /* PBXTargetDependency */,
+			);
+			name = BetterImageNamingTests;
+			productName = BetterImageNamingTests;
+			productReference = FA910C9F1B92BE3F00F1DB50 /* BetterImageNamingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA910CA91B92BE3F00F1DB50 /* BetterImageNamingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA910CB91B92BE3F00F1DB50 /* Build configuration list for PBXNativeTarget "BetterImageNamingUITests" */;
+			buildPhases = (
+				FA910CA61B92BE3F00F1DB50 /* Sources */,
+				FA910CA71B92BE3F00F1DB50 /* Frameworks */,
+				FA910CA81B92BE3F00F1DB50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA910CAC1B92BE3F00F1DB50 /* PBXTargetDependency */,
+			);
+			name = BetterImageNamingUITests;
+			productName = BetterImageNamingUITests;
+			productReference = FA910CAA1B92BE3F00F1DB50 /* BetterImageNamingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA910C831B92BE3F00F1DB50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = NatashaTheRobot;
+				TargetAttributes = {
+					FA910C8A1B92BE3F00F1DB50 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FA910C9E1B92BE3F00F1DB50 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FA910C8A1B92BE3F00F1DB50;
+					};
+					FA910CA91B92BE3F00F1DB50 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FA910C8A1B92BE3F00F1DB50;
+					};
+				};
+			};
+			buildConfigurationList = FA910C861B92BE3F00F1DB50 /* Build configuration list for PBXProject "BetterImageNaming" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA910C821B92BE3F00F1DB50;
+			productRefGroup = FA910C8C1B92BE3F00F1DB50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA910C8A1B92BE3F00F1DB50 /* BetterImageNaming */,
+				FA910C9E1B92BE3F00F1DB50 /* BetterImageNamingTests */,
+				FA910CA91B92BE3F00F1DB50 /* BetterImageNamingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA910C891B92BE3F00F1DB50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA910C991B92BE3F00F1DB50 /* LaunchScreen.storyboard in Resources */,
+				FA910C961B92BE3F00F1DB50 /* Assets.xcassets in Resources */,
+				FA910C941B92BE3F00F1DB50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA910C9D1B92BE3F00F1DB50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA910CA81B92BE3F00F1DB50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA910C871B92BE3F00F1DB50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA910CC51B92C0A000F1DB50 /* Minion.swift in Sources */,
+				FA910CC91B92C51700F1DB50 /* UIImage+Extension.swift in Sources */,
+				FA910CC31B92C08D00F1DB50 /* MinionDataSource.swift in Sources */,
+				FA910CBF1B92C04400F1DB50 /* MinionsTableViewController.swift in Sources */,
+				FA910CBD1B92BF0300F1DB50 /* ImageWithTextTableViewCell.swift in Sources */,
+				FA910CC71B92C38B00F1DB50 /* String+Extension.swift in Sources */,
+				FA910C8F1B92BE3F00F1DB50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA910C9B1B92BE3F00F1DB50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA910CA41B92BE3F00F1DB50 /* BetterImageNamingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA910CA61B92BE3F00F1DB50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA910CAF1B92BE3F00F1DB50 /* BetterImageNamingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA910CA11B92BE3F00F1DB50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA910C8A1B92BE3F00F1DB50 /* BetterImageNaming */;
+			targetProxy = FA910CA01B92BE3F00F1DB50 /* PBXContainerItemProxy */;
+		};
+		FA910CAC1B92BE3F00F1DB50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA910C8A1B92BE3F00F1DB50 /* BetterImageNaming */;
+			targetProxy = FA910CAB1B92BE3F00F1DB50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA910C921B92BE3F00F1DB50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA910C931B92BE3F00F1DB50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA910C971B92BE3F00F1DB50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA910C981B92BE3F00F1DB50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA910CB11B92BE3F00F1DB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA910CB21B92BE3F00F1DB50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA910CB41B92BE3F00F1DB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BetterImageNaming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.BetterImageNaming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA910CB51B92BE3F00F1DB50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BetterImageNaming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.BetterImageNaming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FA910CB71B92BE3F00F1DB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BetterImageNamingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.BetterImageNamingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterImageNaming.app/BetterImageNaming";
+			};
+			name = Debug;
+		};
+		FA910CB81B92BE3F00F1DB50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BetterImageNamingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.BetterImageNamingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterImageNaming.app/BetterImageNaming";
+			};
+			name = Release;
+		};
+		FA910CBA1B92BE3F00F1DB50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BetterImageNamingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.BetterImageNamingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BetterImageNaming;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FA910CBB1B92BE3F00F1DB50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BetterImageNamingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.natashatherobot.BetterImageNamingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BetterImageNaming;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA910C861B92BE3F00F1DB50 /* Build configuration list for PBXProject "BetterImageNaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA910CB11B92BE3F00F1DB50 /* Debug */,
+				FA910CB21B92BE3F00F1DB50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA910CB31B92BE3F00F1DB50 /* Build configuration list for PBXNativeTarget "BetterImageNaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA910CB41B92BE3F00F1DB50 /* Debug */,
+				FA910CB51B92BE3F00F1DB50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA910CB61B92BE3F00F1DB50 /* Build configuration list for PBXNativeTarget "BetterImageNamingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA910CB71B92BE3F00F1DB50 /* Debug */,
+				FA910CB81B92BE3F00F1DB50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA910CB91B92BE3F00F1DB50 /* Build configuration list for PBXNativeTarget "BetterImageNamingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA910CBA1B92BE3F00F1DB50 /* Debug */,
+				FA910CBB1B92BE3F00F1DB50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA910C831B92BE3F00F1DB50 /* Project object */;
+}
